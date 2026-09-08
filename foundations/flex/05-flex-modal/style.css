@@ -39,21 +39,16 @@ body {
   flex-shrink: 0;
 }
 
-.not-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 10px;
-}
-
-.header-flex-group {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header {
   font-weight: bold;
   font-size: large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-block: 10px;
 }
 
 .close-button {
